@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://patrol.it/Enum" version="1.0">
+
+    <xs:simpleType name="YesNoCode">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="N"><xs:annotation><xs:documentation>NIE</xs:documentation></xs:annotation></xs:enumeration>
+            <xs:enumeration value="T"><xs:annotation><xs:documentation>TAK</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
